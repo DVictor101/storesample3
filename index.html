@@ -1,0 +1,250 @@
+<!DOCTYPE html>
+<html lang="en">
+ <head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+  <link rel="stylesheet" href="/index.8353e49f.css">
+  <style>@import "https://fonts.googleapis.com/css2?family=Montserrat:wght@500&family=Roboto&display=swap";
+
+
+</style>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
+
+  <title>storewella_landing_page</title>
+ </head>
+ <body>
+  <!--HEADER/NAVIGATION CONTENT-->
+  <header class="head_nav">
+   <h1>Storewella</h1>
+
+   <nav>
+    <ul class="nav_ul">
+     <li id="store_home" class="nav_li">Home</li>
+     <li id="store_features" class="nav_li">
+      Features
+     </li>
+     <li id="store_services" class="nav_li">
+      Services
+     </li>
+     <li id="store_contact" class="nav_li">
+      Contact
+     </li>
+     <li id="store_login" class="nav_li">
+      Login
+     </li>
+     <li id="store_help" class="nav_li">
+      Help Center
+     </li>
+    </ul>
+   </nav>
+  </header>
+  <!--NAVIGATION DISPLAY FOR DEVICE LESS THAN 480PX-->
+  <div class="nav_control">
+   <nav class="navbar nav_hidden custom_nav fixed-top">
+    <div class="container-fluid">
+     <a class="navbrand_link" href="#">Storewella</a>
+     <button class="custom_btn" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+     </button>
+     <div class="custom_offcanvas offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
+      <div class="offcanvas-header">
+       <h5 class="offcanvas-title" id="offcanvasNavbarLabel">
+        Storewella
+       </h5>
+       <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+      </div>
+      <div class="offcanvas-body">
+       <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+        <li id="store_home" class="nav-item">
+         <a class="nav-link active" aria-current="page" href="#">Home</a>
+        </li>
+        <li id="store_features" class="nav-item">
+         <a class="nav-link" href="#">Features</a>
+        </li>
+        <li id="store_contact" class="nav-item">
+         <a class="nav-link active" aria-current="page" href="#">Contact</a>
+        </li>
+        <li id="store_login" class="nav-item">
+         <a class="nav-link active" aria-current="page" href="#">Login</a>
+        </li>
+
+        <li id="store_help" class="nav-item">
+         <a class="nav-link active" aria-current="page" href="#">Help Center</a>
+        </li>
+       </ul>
+      </div>
+     </div>
+    </div>
+   </nav>
+  </div>
+
+  <!--FIRST SECTION CONTENT-->
+  <!--BACKGROUND IMAGE-->
+  <div class="background_img_cont">
+   <!--THE LOGIN / SIGN  UP HTML CONTENT CODE-->
+   <section id="login_tab" class="login_cont hidden"></section>
+   <div class="control_signin">
+    <div id="signin_realcont" class="signin_cont hidden">
+     <div class="signin_h2">
+      <h2>Please log in to your account</h2>
+     </div>
+     <div>
+      <form class="signin_form" method="get">
+       <label>Enter your email</label>
+       <input class="signin_input" type="email" placeholder="myemail@gmail.com">
+       <label>Enter your Password</label>
+       <input class="signin_input" type="password" placeholder="12345678">
+       <div class="sighin_submit_cont">
+        <button type="submit">sign in</button>
+        <p>Forgot password?</p>
+       </div>
+      </form>
+      <div class="noaccount_cont">
+       <p>Don't have an account</p>
+       <button>Create New</button>
+      </div>
+     </div>
+    </div>
+   </div>
+   <!--BACKGROUND IMAGE OPACITY-->
+   <div class="page_overflow"></div>
+   <section class="sec_1">
+    <article>
+     <h2>
+      StoreWella all about<br>
+      storage and<br>
+      security
+     </h2>
+     <button>Search facility</button>
+    </article>
+   </section>
+  </div>
+  <!--SECTION-2-SEARCH STORAGE FACILITY-->
+  <section class="sec2">
+   <form method="get" class="sec2_form">
+    <input class="sec2_input" type="text" placeholder="enter desired location">
+
+    <button id="target_features" class="sec2_btn sect2_btn2">
+     submit
+    </button>
+   </form>
+
+   <div class="facility_cont">
+    <div class="selffacility_cont">
+     <a class="selffacility_link" href="#">
+      <img class="sec2_img" src="https://upload.wikimedia.org/wikipedia/commons/2/23/Self_storage_units.jpg">
+      <p class="facility_title">
+       self storage facilities
+      </p></a>
+    </div>
+
+    <div class="selffacility_cont warehouse_cont">
+     <a class="selffacility_link" href="#">
+      <img class="sec2_img" src="https://www.leasing.net.in/public/projectimage/1491634354warehouse%20bilaspur.jpg">
+      <p id="services_list" class="facility_title">
+       warehouse facilities
+      </p></a>
+    </div>
+   </div>
+  </section>
+  <!--SERVICES CONTENT SECION-->
+  <h1 id="services_list" class="sevice_title">
+   Services
+  </h1>
+  <section class="service_sec">
+   <div class="sevice_sec_space">
+    <div class="self_storage_cont">
+     <div class="self_storage_imgcont">
+      <img class="self_storage_img" src="https://www.extraspaceasia.com.my/wp-content/uploads/2022/10/Storage-Unit-scaled.jpg" alt="self-storage">
+     </div>
+     <p>Store your goods with us</p>
+    </div>
+    <div class="self_storage_cont">
+     <div class="self_storage_imgcont">
+      <img class="self_storage_img" src="https://light-trucks.tatamotors.com/blog/wp-content/uploads/2018/11/best-lighttruck-loading-transporting-goods.jpg" alt="moving-vehicle">
+     </div>
+     <p>
+      We help you move your goods, free for new
+      customers
+     </p>
+    </div>
+   </div>
+   <div class="sevice_sec_space sec_space2">
+    <div class="self_storage_cont">
+     <div class="self_storage_imgcont">
+      <img class="self_storage_img" src="https://peerstorage.co/wp-content/uploads/2022/02/How-to-find-storage-units-near-me-%E2%80%93-The-ultimate-guide.png" alt="list-storage">
+     </div>
+     <p>
+      List your empty storage facility with us
+     </p>
+    </div>
+    <div class="self_storage_cont">
+     <div class="self_storage_imgcont">
+      <img class="self_storage_img" src="https://cdngeneral.storagecafe.com/Content/images/homepage/small_units_600.jpg" alt="storage-discount">
+     </div>
+     <p>
+      Get 12% discount on your first storage with
+      us
+     </p>
+    </div>
+   </div>
+  </section>
+  <!--FOOTER CONTENT STARTS HERE-->
+  <footer>
+   <section class="footer_sec">
+    <div class="ft_individual_cont">
+     <h2 class="ft_header2">Company</h2>
+     <ul class="ft_listitems">
+      <li>About Us</li>
+      <li>Services</li>
+      <li>Our Investors</li>
+      <li>Products</li>
+      <li>Reviews</li>
+     </ul>
+    </div>
+    <div id="contact_target" class="ft_individual_cont">
+     <h2 class="ft_header2">Contact</h2>
+     <ul class="ft_listitems">
+      <li>Help Center</li>
+      <li>Email Us</li>
+      <li>FAQs</li>
+      <li>Trust & Safety</li>
+      <li>Call us</li>
+     </ul>
+    </div>
+    <div class="ft_individual_cont">
+     <h2 class="ft_header2">Privacy Policy</h2>
+     <ul class="ft_listitems">
+      <li>Legal</li>
+      <li>Terms of Services</li>
+     </ul>
+     <p class="store_p">Get the App</p>
+     <div class="store_div">
+      <img alt="google play logo" src="https://d9lvjui2ux1xa.cloudfront.net/GooglePlayLogo.png" class="googleplay_logo">
+     </div>
+     <div class="store_div">
+      <img alt="app store logo" src="https://d9lvjui2ux1xa.cloudfront.net/AppStoreWhite.png" class="applestore_logo">
+     </div>
+    </div>
+    <div class="ft_connect_cont">
+     <h2>connect with Us On</h2>
+     <section class="ft_listitems ft_connect_listitems">
+      <div class="connect_cont">
+       <img width="40" height="40" src="https://img.icons8.com/ios-glyphs/30/twitter--v1.png" alt="twitter--v1">
+      </div>
+      <div class="connect_cont">
+       <img width="40" height="40" src="https://img.icons8.com/ios-filled/50/instagram-new--v1.png" alt="instagram-new--v1">
+      </div>
+      <div class="connect_cont">
+       <img width="40" height="40" src="https://img.icons8.com/ios-filled/50/facebook-new.png" alt="facebook-new">
+      </div>
+     </section>
+    </div>
+   </section>
+  </footer>
+  <script src="/index.672d4772.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe" crossorigin="anonymous"></script>
+ <script src="/first_landing_page2.3464ddca.js"></script></body>
+</html>
